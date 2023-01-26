@@ -15,7 +15,7 @@ T max(T a, T b, T c) {
 
 // won't be matched because it's declared after the template version
 int max(int a, int b) {
-  std::cout << "max(int, int)\n";
+  cout << "max(int, int)\n";
   return b < a ? a : b;
 }
 
